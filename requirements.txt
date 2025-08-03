@@ -1,5 +1,5 @@
 streamlit
 pandas
-pip install plotly
+plotly
 user-agents
 matplotlib # Or plotly/altair, but matplotlib is good for basic charting
