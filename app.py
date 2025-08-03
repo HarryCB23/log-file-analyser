@@ -6,6 +6,7 @@ from user_agents import parse
 import plotly.express as px
 import plotly.graph_objects as go
 import gzip # Import gzip for handling .gz files
+import io   # <-- ADDED: Fixes NameError for io.BytesIO
 
 # --- Configuration and Styling ---
 LOG_PATTERN = re.compile(
